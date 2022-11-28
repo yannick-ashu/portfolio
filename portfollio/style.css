@@ -1,0 +1,105 @@
+.topper nav ul{
+    color: white;
+    display: flex;
+    border-radius: 20px;
+    padding: 3%;
+    font-size: 150%;
+    background-color: rgb(251, 210, 156);
+    
+}
+.topper{
+    text-align: left;
+    font-size: larger;
+    color: black;
+}
+.topper nav ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    align-items: flex-start;
+    list-style: none;
+    text-align: center;
+}
+
+.lio{
+    color:crimson;
+}
+.topper h1{
+    font-family:'Times New Roman', Times, serif
+}
+#home h1{
+    font-size: 500%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: oblique;
+}
+#home h3{ font-size: 150%;}
+#caasitechAcademy{font-display: flex;
+font-size: smaller;
+color: ;}
+#services{ color: saddlebrown;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 150%;
+text-align: center;
+list-style:none;
+}
+#services h1{font-size: 100px;
+padding-top: 20%;}
+body{
+    text-align: center;
+    background-position: center;
+    border-radius: 30%;
+    background-size: contain;
+    color:brown;
+    padding: 5%;
+
+
+} 
+
+#about p{
+    text-shadow: 50%;
+    font-size: 200%;
+}
+
+#about div {
+    display: flex;
+    gap: 10px;
+}
+
+@media screen and (max-width: 400px) {
+    #about div {
+        flex-direction: column;
+    }
+    #about img{
+        width: 300px;
+    }
+    #services h1{
+        font-size: 70px;
+    }
+    .topper nav ul{
+        gap: 6px;
+        font-size: 18px;
+    }
+}
+
+#about div p {
+    text-align: left;
+    align-self: flex-start;
+}
+
+#contact{
+    font-size: 200%;
+    background-color: bisque;
+    
+    
+
+}
+#home h1{
+    text-align: left;
+}
+.name{text-align: left;}
+#home h3{text-align: left;}
+#about h1{font-size: 370%;
+}
+
+
+
